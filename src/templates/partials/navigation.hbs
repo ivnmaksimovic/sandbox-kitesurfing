@@ -1,0 +1,14 @@
+
+<a href="{{relative page.dest "dist/index.html"}}">{{ site.title }}</a>
+
+<div>
+  <ul>
+    <!-- you can exclude pages using \{{#isnt}} helper: \{{#isnt data.title 'Blog'}} -->
+    {{#withSort pages "data.position" }}
+    <li{{#if this.isCurrentPage}} class="active"{{/if}}>
+      <a href="{{relative dest this.dest}}">{{ data.title }}</a>
+    </li>
+    {{/withSort}}
+</div>
+
+

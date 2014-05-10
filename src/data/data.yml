@@ -1,0 +1,15 @@
+title: Assemble, Foundation 5, Grunt
+
+
+content:
+  home:       '<%= config.src %>/content/home.md'
+  in-general: '<%= config.src %>/content/in-general.md'
+  school:     '<%= config.src %>/content/school.md'
+  package:    '<%= config.src %>/content/package.md'
+  team:       '<%= config.src %>/content/team.md'
+  video:      '<%= config.src %>/content/video.md'
+  faq:        '<%= config.src %>/content/faq.md'
+  contact:    '<%= config.src %>/content/contact.md'
+  price:      '<%= config.src %>/content/price.md'
+
+

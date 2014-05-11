@@ -21,7 +21,8 @@ The airport transfer is not included in the price (Podgorica 50 € / Tivat 60 �
 
 ### PACKAGES
 
-#### BEGINNER package
+#### Beginner package
+
 Twelve hours of kite course (see description in school) including kite gear rental for the rest of the week.
 
 Selected accomodation and included services.
@@ -79,7 +80,7 @@ Offer includes breakfast and dinner, which you can eat on the beautiful terrace 
 
 In our opinion this is the best place for vacation in Ulcinj.
  
-### Price
+### Package prices
 
 The prices are per person per week and include the following services.
 You can also make a package to suit you, just contact us and we'll make a deal

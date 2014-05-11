@@ -1,2 +1,1 @@
-##Home
-baner i slider
+## Home

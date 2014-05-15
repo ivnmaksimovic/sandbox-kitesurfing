@@ -1,4 +1,4 @@
-## TEAM
+## Meet the team
 
 ### Dragan Pušica - Puška
 + Founder of the Sandbox

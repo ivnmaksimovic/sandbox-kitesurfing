@@ -1,11 +1,14 @@
-<div id="navigation" class="row">
-  <ul>
-    <!-- you can exclude pages using \{{#isnt}} helper: \{{#isnt data.title 'Blog'}} -->
-    {{#withSort pages "data.position" }}
-    <li{{#if this.isCurrentPage}} class="active"{{/if}}>
-      <a href="#{{this.basename}}">{{ data.title }}</a>
-    </li>
-    {{/withSort}}
+<div id="navigation">
+  <div class="row">
+    <ul>
+      <!-- you can exclude pages using \{{#isnt}} helper: \{{#isnt data.title 'Blog'}} -->
+      {{#withSort pages "data.position" }}
+        <li{{#if this.isCurrentPage}} class="active"{{/if}}>
+          <a href="#{{this.basename}}">{{ data.title }}</a>
+        </li>
+      {{/withSort}}
+  </div>
 </div>
+
 
 

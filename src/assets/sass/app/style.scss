@@ -1,7 +1,14 @@
 #navigation {
+  z-index: 100;
+  position: fixed;
+  background: red;
+  width: 100%;
+  box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.5);
 
   ul {
-    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0;
     list-style-type: none;
 
     li {
@@ -20,4 +27,50 @@
       }
     }
   }
+}
+
+#home {
+  padding-top:46px;
+}
+
+.page>div:first-child {
+  background-size: 100%;
+  height: 90%;
+}
+
+#home>div:first-child {
+  background-image: url("/assets/img/bg/home.jpg");
+}
+
+#general>div:first-child {
+  background-image: url("/assets/img/bg/general.jpg");
+}
+
+#school>div:first-child {
+  background-image: url("/assets/img/bg/school.jpg");
+}
+
+#package>div:first-child {
+  background-image: url("/assets/img/bg/package.jpg");
+}
+
+#team>div:first-child {
+  background-image: url("/assets/img/bg/team.jpg");
+}
+
+#video>div:first-child {
+  background-image: url("/assets/img/bg/video.jpg");
+}
+
+#faq>div:first-child {
+  background-image: url("/assets/img/bg/faq.jpg");
+}
+
+#contact>div:first-child {
+  background-image: url("/assets/img/bg/contact.jpg");
+}
+
+.sub-page {
+  position: relative;
+  bottom: 0px;
 }

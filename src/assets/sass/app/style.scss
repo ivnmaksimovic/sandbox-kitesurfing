@@ -38,53 +38,55 @@ body {
 }
 
 #home {
-  padding-top:46px;
+  padding-top:26px;
   height: 100%;
 }
 
-.page>div:first-child,
-#home>div:first-child {
+.intro {
   background-size: 100%;
 }
 
 #home>div:first-child {
   height: 100%;
-}
-
-#home>div:first-child {
+  background-size: 100%;
   background-image: url("/assets/img/bg/home.jpg");
 }
 
-#general>div:first-child {
+#general>.intro {
   background-image: url("/assets/img/bg/general.jpg");
 }
 
-#school>div:first-child {
+#school>.intro {
   background-image: url("/assets/img/bg/school.jpg");
 }
 
-#package>div:first-child {
+#package>.intro {
   background-image: url("/assets/img/bg/package.jpg");
 }
 
-#team>div:first-child {
+#team>.intro {
   background-image: url("/assets/img/bg/team.jpg");
 }
 
-#video>div:first-child {
+#video>.intro {
   background-image: url("/assets/img/bg/video.jpg");
 }
 
-#faq>div:first-child {
+#faq>.intro {
   background-image: url("/assets/img/bg/faq.jpg");
 }
 
-#contact>div:first-child {
+#price>.intro {
+  background-image: url("/assets/img/bg/price.jpg");
+}
+
+#contact>.intro {
   background-image: url("/assets/img/bg/contact.jpg");
 }
 
 .page {
-//  padding-bottom: 150px;
+  border-top: 1px solid white;
+  border-bottom: 2px solid #041e33;
 }
 
 .sub-page {

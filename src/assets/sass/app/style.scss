@@ -1,7 +1,7 @@
 #navigation {
   z-index: 100;
   position: fixed;
-  background: red;
+  background: $body-bg;
   width: 100%;
   box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.5);
 
@@ -29,13 +29,26 @@
   }
 }
 
-#home {
-  padding-top:46px;
+html {
+  height: 100%;
 }
 
-.page>div:first-child {
+body {
+  height: 100%;
+}
+
+#home {
+  padding-top:46px;
+  height: 100%;
+}
+
+.page>div:first-child,
+#home>div:first-child {
   background-size: 100%;
-  height: 90%;
+}
+
+#home>div:first-child {
+  height: 100%;
 }
 
 #home>div:first-child {
@@ -70,7 +83,11 @@
   background-image: url("/assets/img/bg/contact.jpg");
 }
 
+.page {
+//  padding-bottom: 150px;
+}
+
 .sub-page {
   position: relative;
-  bottom: 0px;
+  background-color: $body-bg;
 }

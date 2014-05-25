@@ -1,4 +1,4 @@
-#### Intermediate course
+### Intermediate course
 
 6 hours (2 days)
 

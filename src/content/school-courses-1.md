@@ -1,13 +1,10 @@
-### Courses
-
-
-#### Introduction course
+### Introduction course
 
 3 hours (1 day)
 
 From this course you should start learning kitesurfing. Introduction course is only an entrance into the world of kiting. If you are not 100% sure that kitesurfing is for you – this level will help you decide!
 
-#### Beginner course
+### Beginner course
 
 12 hours (3-4 days)
 

@@ -41,12 +41,11 @@ body {
   height: 100%;
 }
 
-#home, .page {
+#home {
   height: 100%;
 }
-//
+
 //.intro {
-//  height: 100%;
 //  background-size: 100%;
 //  background-repeat: no-repeat;
 //  background-color: #cccccc;
@@ -54,7 +53,7 @@ body {
 //  background-position: bottom;
 //}
 
-#home>div:first-child, .intro {
+#home>div:first-child {
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -78,37 +77,37 @@ body {
 //  }
 //}
 
-#general>.intro {
-  background-image: url("/assets/img/bg/general.jpg");
-}
-
-#school>.intro {
-  background-image: url("/assets/img/bg/school.jpg");
-}
-
-#package>.intro {
-  background-image: url("/assets/img/bg/package.jpg");
-}
-
-#team>.intro {
-  background-image: url("/assets/img/bg/team.jpg");
-}
-
-#video>.intro {
-  background-image: url("/assets/img/bg/video.jpg");
-}
-
-#faq>.intro {
-  background-image: url("/assets/img/bg/faq.jpg");
-}
-
-#price>.intro {
-  background-image: url("/assets/img/bg/price.jpg");
-}
-
-#contact>.intro {
-  background-image: url("/assets/img/bg/contact.jpg");
-}
+//#general>.intro {
+//  background-image: url("/assets/img/bg/general.jpg");
+//}
+//
+//#school>.intro {
+//  background-image: url("/assets/img/bg/school.jpg");
+//}
+//
+//#package>.intro {
+//  background-image: url("/assets/img/bg/package.jpg");
+//}
+//
+//#team>.intro {
+//  background-image: url("/assets/img/bg/team.jpg");
+//}
+//
+//#video>.intro {
+//  background-image: url("/assets/img/bg/video.jpg");
+//}
+//
+//#faq>.intro {
+//  background-image: url("/assets/img/bg/faq.jpg");
+//}
+//
+//#price>.intro {
+//  background-image: url("/assets/img/bg/price.jpg");
+//}
+//
+//#contact>.intro {
+//  background-image: url("/assets/img/bg/contact.jpg");
+//}
 
 .page {
   border-top: 1px solid white;
@@ -120,7 +119,7 @@ body {
   background-color: $body-bg;
   box-shadow: inset 0px 30px 30px -15px rgba(0,0,0,0.75);
   z-index: 10;
-  padding-bottom: 5rem;
+//  padding-bottom: 5rem;
 
   h1, h2, h3, h4, h5, h6,
   p, a, ul, ol {
@@ -132,10 +131,10 @@ body {
   }
 }
 
-h2 {
-  margin-top: 70px;
-}
-
-h3 {
-  margin-top: 50px;
-}
+//h2 {
+//  margin-top: 70px;
+//}
+//
+//h3 {
+//  margin-top: 50px;
+//}

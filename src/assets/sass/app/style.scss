@@ -41,26 +41,32 @@ body {
   height: 100%;
 }
 
-#home {
+#home, .page {
   height: 100%;
 }
+//
+//.intro {
+//  height: 100%;
+//  background-size: 100%;
+//  background-repeat: no-repeat;
+//  background-color: #cccccc;
+//  padding-bottom: 200px;
+//  background-position: bottom;
+//}
 
-.intro {
-  min-height: 800px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: #cccccc;
-  padding-bottom: 200px;
-  background-position: bottom;
-}
-
-#home>div:first-child {
+#home>div:first-child, .intro {
   height: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: $body-bg;
   background-image: url("/assets/img/bg/home.jpg");
+
+  @media (max-width: 1100px) {
+    background-size: 1100px; /* Force the image to its minimum width */
+  }
 }
+
+
 
 //@media #{$small} {
 //  #home>div:first-child {

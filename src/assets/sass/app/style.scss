@@ -33,6 +33,10 @@
   }
 }
 
+img {
+  width: 100%;
+}
+
 html {
   height: 100%;
 }
@@ -54,18 +58,10 @@ body {
 //}
 
 #home>div:first-child {
-  height: 100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: $body-bg;
+  min-height: 100%;
   background-image: url("/assets/img/bg/home.jpg");
-
-  @media (max-width: 1100px) {
-    background-size: 1100px; /* Force the image to its minimum width */
-  }
+  background-size: cover;
 }
-
-
 
 //@media #{$small} {
 //  #home>div:first-child {
@@ -77,48 +73,52 @@ body {
 //  }
 //}
 
-//#general>.intro {
-//  background-image: url("/assets/img/bg/general.jpg");
-//}
-//
-//#school>.intro {
-//  background-image: url("/assets/img/bg/school.jpg");
-//}
-//
-//#package>.intro {
-//  background-image: url("/assets/img/bg/package.jpg");
-//}
-//
-//#team>.intro {
-//  background-image: url("/assets/img/bg/team.jpg");
-//}
-//
-//#video>.intro {
-//  background-image: url("/assets/img/bg/video.jpg");
-//}
-//
-//#faq>.intro {
-//  background-image: url("/assets/img/bg/faq.jpg");
-//}
-//
-//#price>.intro {
-//  background-image: url("/assets/img/bg/price.jpg");
-//}
-//
-//#contact>.intro {
-//  background-image: url("/assets/img/bg/contact.jpg");
-//}
+#general {
+  background-color: #617FB5;
+}
+
+#school {
+  background-color: #1093C1;
+}
+
+#package {
+  background-color: #003D52;
+}
+
+#team {
+  background-color: #1D1D1C;
+}
+
+#video {
+  background-color: #97988F;
+}
+
+#faq {
+  background-color: #445563;
+}
+
+#price {
+  background-color: #98906D;
+}
+
+#contact {
+  background-color: #98906D;
+}
 
 .page {
   border-top: 1px solid white;
-  border-bottom: 2px solid #041e33;
+  border-bottom: 2px solid #0D2024;
+  position: relative;
+}
+
+.intro {
+  box-shadow: 0px 30px 30px -15px rgba(0,0,0,0.75);
+  z-index: 10;
 }
 
 .sub-page {
   position: relative;
-  background-color: $body-bg;
-  box-shadow: inset 0px 30px 30px -15px rgba(0,0,0,0.75);
-  z-index: 10;
+
 //  padding-bottom: 5rem;
 
   h1, h2, h3, h4, h5, h6,
@@ -131,10 +131,16 @@ body {
   }
 }
 
-//h2 {
-//  margin-top: 70px;
-//}
-//
-//h3 {
-//  margin-top: 50px;
-//}
+blockquote {
+  color: $secondary-color;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 60%;
+  font-size: 0.7rem;
+  line-height: 1;
+
+  span {
+    font-size: 1.4rem;
+  }
+}

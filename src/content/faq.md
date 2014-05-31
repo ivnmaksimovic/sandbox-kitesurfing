@@ -1,4 +1,4 @@
-## Frequently asked questions:
+
 
 #### When the season starts and how long it lasts?
 

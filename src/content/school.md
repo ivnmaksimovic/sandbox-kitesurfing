@@ -1,4 +1,4 @@
-## School
+
 
 
 We are serious about kitesurfing – it is our passion, but most of all it is our way of life. We will take care of the highest quality of your taining, as well as safety and fun! Trust us – we know how to make you fall in love with kite and board.

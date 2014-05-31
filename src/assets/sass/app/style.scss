@@ -46,10 +46,12 @@ body {
 }
 
 .intro {
+  min-height: 800px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: $body-bg;
+  background-color: #cccccc;
   padding-bottom: 200px;
+  background-position: bottom;
 }
 
 #home>div:first-child {
@@ -60,11 +62,15 @@ body {
   background-image: url("/assets/img/bg/home.jpg");
 }
 
-@media (max-width: 1100px) {
-  #home>div:first-child {
-    background-size: 1100px; /* Force the image to its minimum width */
-  }
-}
+//@media #{$small} {
+//  #home>div:first-child {
+//    background-size: 1700px; /* Force the image to its minimum width */
+//  }
+//
+//  .intro {
+//    background-size: 1700px; /* Force the image to its minimum width */
+//  }
+//}
 
 #general>.intro {
   background-image: url("/assets/img/bg/general.jpg");

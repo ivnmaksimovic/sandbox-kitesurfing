@@ -1,6 +1,6 @@
+### For those who want to think only about kitesurfing,
 
-
-For those who want to think only about kite, we offer our complete packages. The price is much better than that you alone make the same package. 
+we offer our complete packages. The price is much better than that you alone make the same package.
 
 Total Beginners as well as intermediate and advanced kitesurfers will be totally taken care of with those packages.
 

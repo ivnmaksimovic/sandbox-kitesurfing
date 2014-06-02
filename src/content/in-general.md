@@ -1,6 +1,6 @@
+### Montenegro,
 
-
-**Montenegro**, the pearl of the Mediterranean, unique in many ways,
+the pearl of the Mediterranean, unique in many ways,
 is situated in the south of the Adriatic.
 Nowhere else can you find so much natural wealth,
 beauty, mild beaches, clear lakes, fast rivers,
@@ -9,7 +9,9 @@ In the morning you can wake up along the beautiful Adriatic coast,
 have lunch on the banks of Skadar Lake, and enjoy an evening walk in
 the Montenegrin mountains. Montenegro cannot leave you indifferent.
 
-**Ulcinj** is the southernmost city at Montenegrin coast.
+### Ulcinj
+
+is the southernmost city at Montenegrin coast.
 Withits natural potential Ulcinj is tourism borne.
 The longest beach at the Adriatic sea – Velika plaza (Long Beach) 13 km long
 (**Sandbox** beach is part of the Long Beach), Ada Bojana – a unique river island

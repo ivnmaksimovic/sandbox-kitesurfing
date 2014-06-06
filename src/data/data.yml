@@ -17,8 +17,10 @@ content:
   package-prices:              '<%= config.src %>/content/package-prices.md'
   team:                        '<%= config.src %>/content/team.md'
   video:                       '<%= config.src %>/content/video.md'
-  faq:                         '<%= config.src %>/content/faq.md'
+  faq-1:                       '<%= config.src %>/content/faq-1.md'
+  faq-2:                       '<%= config.src %>/content/faq-2.md'
   contact:                     '<%= config.src %>/content/contact.md'
-  price:                       '<%= config.src %>/content/price.md'
+  price-1:                     '<%= config.src %>/content/price-1.md'
+  price-2:                     '<%= config.src %>/content/price-2.md'
 
 

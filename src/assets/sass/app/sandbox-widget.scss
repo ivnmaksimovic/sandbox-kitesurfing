@@ -1,0 +1,13 @@
+// Weather widget
+#weather {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: $secondary-color;
+  font-weight: 100;
+  font-size: emCalc(12px);
+
+  @media screen and (max-width : 768px) {
+    display: none;
+  }
+}

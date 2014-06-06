@@ -2,7 +2,7 @@
 title: Home
 position: 1
 ---
-<div id="home">
+<div id="home" class="show-for-medium-up">
   <div class="row">
     <div class="large-4 columns large-offset-2 end">
       {{{ md content.home }}}
@@ -31,12 +31,12 @@ position: 1
     <div class="large-4 columns large-offset-2">
       {{{ md content.in-general }}}
       {{{ md content.in-general-spot }}}
+      {{{ md content.in-general-visa }}}
     </div>
 
     <div class="large-4 columns end">
       {{{ md content.in-general-currency-payment }}}
       {{{ md content.in-general-get-there }}}
-      {{{ md content.in-general-visa }}}
     </div>
   </div>
 </div>
@@ -58,10 +58,10 @@ position: 1
 
     <div class="large-4 columns large-offset-2">
       {{{ md content.school }}}
-      {{{ md content.school-courses-1 }}}
     </div>
 
     <div class="large-4 columns end">
+      {{{ md content.school-courses-1 }}}
       {{{ md content.school-courses-2 }}}
     </div>
   </div>
@@ -83,11 +83,11 @@ position: 1
 
     <div class="large-4 columns large-offset-2">
       {{{ md content.package }}}
-      {{{ md content.package-packages }}}
       {{{ md content.package-prices }}}
     </div>
 
     <div class="large-4 columns end">
+      {{{ md content.package-packages }}}
       {{{ md content.package-accommodation }}}
     </div>
   </div>
@@ -122,7 +122,13 @@ position: 1
     </div>
 
     <div class="large-4 columns large-offset-2">
-      {{{ md content.video }}}
+      <div class="video-container media-big">
+        <iframe width="560" height="315" src="//www.youtube.com/embed/5jjFq3b-lWc" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="large-4 columns large-offset-2 end">
+
     </div>
   </div>
 </div>
@@ -142,8 +148,12 @@ position: 1
       <h1>Frequently asked questions</h1>
     </div>
 
-    <div class="large-4 columns large-offset-2 end">
-      {{{ md content.faq }}}
+    <div class="large-4 columns large-offset-2">
+      {{{ md content.faq-1 }}}
+    </div>
+
+    <div class="large-4 columns end">
+      {{{ md content.faq-2 }}}
     </div>
   </div>
 </div>
@@ -162,15 +172,30 @@ position: 1
       <h1>Price</h1>
     </div>
 
-    <div class="large-4 columns large-offset-2 end">
-      {{{ md content.price }}}
+    <div class="large-4 columns large-offset-2">
+      {{{ md content.price-1 }}}
+    </div>
+
+    <div class="large-4 columns end">
+      {{{ md content.price-2 }}}
     </div>
   </div>
 </div>
 
 <div id="contact" class="page">
-  <div class="row intro">
+  <div class="row sub-page">
     <div class="large-8 columns large-offset-2 end">
+      <h1>Be in touch</h1>
+    </div>
+
+    <div class="large-4 columns large-offset-2">
+      <a target="_blank" href="https://maps.google.com/maps?ll=41.882092,19.318678&z=14&t=h&hl=en-US&gl=US&mapclient=embed&q=41%C2%B052%2755.6%22N+19%C2%B019%2707.2%22E">
+        <img class="media-big" src="{{ assets }}/img/map.png" alt="Google map location"/>
+        <h5>Google map location</h5>
+      </a>
+    </div>
+
+    <div class="large-4 columns end">
       {{{ md content.contact }}}
     </div>
   </div>

@@ -124,6 +124,10 @@ module.exports = function(grunt) {
         src: ['src/assets/js/vendor/jquery.js'],
         dest: 'dist/assets/js/jquery.js',
       },
+      jspicture: {
+        src: ['src/assets/js/vendor/picturefill.min.js'],
+        dest: 'dist/assets/js/picturefill.min.js',
+      },
       jsapp: {
         src: [
           'src/assets/js/foundation/foundation.js',

@@ -1,22 +1,23 @@
 <div id="navigation">
   <div class="row">
-    <img id="logo" class="hide-for-small" src="{{ assets }}/img/icons/sandbox.png" alt="twiter logo"/>
-    <ul id="nav-main">
-      <!-- you can exclude pages using \{{#isnt}} helper: \{{#isnt data.title 'Blog'}} -->
-      {{#withSort pages "data.position" }}
-        <li{{#if this.isCurrentPage}} class="active"{{/if}}>
-          <a href="#{{this.basename}}">{{ data.title }}</a>
-        </li>
-      {{/withSort}}
+    <ul>
+      <li id="logo"><a href="#home"><img src="{{ assets }}/img/icons/sandbox.png" alt="sandbox logo"/></a></li>
+      <li><a href="#in-general">In general</a></li>
+      <li><a href="#school">School</a></li>
+      <li><a href="#package">Package</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#faq">Faq</a></li>
+      <li><a href="#price">Price</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-
-    <!--<ul id="nav-social">-->
-      <!--<li><a target="_blank" href="https://www.facebook.com/Sandbox.beach"><img src="{{ assets }}/img/icons/twiter.png" alt="twiter logo"/></a></li>-->
-      <!--<li><a target="_blank" href="https://www.facebook.com/Sandbox.beach"><img src="{{ assets }}/img/icons/facebook.png" alt="facebook logo"/></a></li>-->
-      <!--<li><a target="_blank" href="https://www.facebook.com/Sandbox.beach"><img src="{{ assets }}/img/icons/youtube.png" alt="youtube logo"/></a></li>-->
-    <!--</ul>-->
   </div>
 </div>
+
+<ul id="nav-social">
+  <li><a target="_blank" href="https://www.facebook.com/Sandbox.beach"><img src="{{ assets }}/img/icons/twiter.png" alt="twiter logo"/></a></li>
+  <li><a target="_blank" href="https://www.facebook.com/Sandbox.beach"><img src="{{ assets }}/img/icons/facebook.png" alt="facebook logo"/></a></li>
+  <li><a target="_blank" href="https://www.facebook.com/Sandbox.beach"><img src="{{ assets }}/img/icons/youtube.png" alt="youtube logo"/></a></li>
+</ul>
 
 
 

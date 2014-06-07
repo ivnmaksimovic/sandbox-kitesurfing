@@ -1,4 +1,12 @@
 #navigation {
+
+  #logo {
+    float: left;
+    width: 36px;
+    height: 34px;
+    margin: 0 15px 0 35px;
+  }
+
   z-index: 100;
   position: fixed;
   background: $body-bg;
@@ -65,6 +73,7 @@
       padding-top: 0;
       padding-bottom: 0;
       list-style-type: none;
+      width: 100%;
 
       li {
         clear: both;
@@ -208,15 +217,15 @@ body {
 }
 
 #contact {
-//  background-color: #98906D;
-  background: rgba(152,144,109,1);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(152,144,109,1) 0%, rgba(94,89,67,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(152,144,109,1)), color-stop(100%, rgba(94,89,67,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(152,144,109,1) 0%, rgba(94,89,67,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(152,144,109,1) 0%, rgba(94,89,67,1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(152,144,109,1) 0%, rgba(94,89,67,1) 100%);
-  background: radial-gradient(ellipse at center, rgba(152,144,109,1) 0%, rgba(94,89,67,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98906d', endColorstr='#5e5943', GradientType=1 );
+//  background-color: #0c2125;;
+  background: rgba(25,60,66,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(25,60,66,1) 0%, rgba(13,32,36,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(25,60,66,1)), color-stop(100%, rgba(13,32,36,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(25,60,66,1) 0%, rgba(13,32,36,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(25,60,66,1) 0%, rgba(13,32,36,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(25,60,66,1) 0%, rgba(13,32,36,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(25,60,66,1) 0%, rgba(13,32,36,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#193c42', endColorstr='#0d2024', GradientType=1 );
 }
 
 .page,

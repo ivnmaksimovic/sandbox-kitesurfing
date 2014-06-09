@@ -14,7 +14,8 @@ efforts for your maximum success.
 You`re looking for individual courses or package deals? Just click our
 packages or send us a request.
 
-The kiteschool provides you with the latest gear of F-One and BEST.
+The kiteschool provides you with the latest gear of
+<a href="http://en.f-onekites.com/#/Fone-Products/_Kites.htm" target="_blank" title="F-One kites website">F-One</a>.
 
 Our instructors speak English, German, Dutch (Netherlands), Russian,
 Polish, Ukrain, Serbian.

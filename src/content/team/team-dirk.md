@@ -1,5 +1,5 @@
 ### Dirk Derksen
-+ ICO instructor
++ IKO instructor
 + Nationality: Germany
 + Speak: German, English, Netherlands
 

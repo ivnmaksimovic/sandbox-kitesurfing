@@ -1,18 +1,18 @@
 {
-  "name": "sandbox",
+  "name": "sandbox-kitesurfing",
   "description": "Sandbox, Kitesurfing beach",
   "version": "0.1.0",
-  "homepage": "kitesurfingmontenegro.com",
+  "homepage": "http://kitesurfingmontenegro.com/",
   "author": {
     "name": "Ivan Maksimovic",
     "url": "https://github.com/ivnmaksimovic"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/ivnmaksimovic/sandbox.git"
+    "url": "https://github.com/ivnmaksimovic/sandbox-kitesurfing"
   },
   "bugs": {
-    "url": "https://bitbucket.org/ivnmaksimovic/sandbox/issues"
+    "url": "https://github.com/ivnmaksimovic/sandbox-kitesurfing/issues"
   },
   "engines": {
     "node": ">=0.8"

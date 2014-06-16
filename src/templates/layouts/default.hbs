@@ -29,6 +29,9 @@
       <script src="{{assets}}/js/picturefill.min.js" async></script>
       <script src="{{assets}}/js/jquery.min.js"></script>
       <script src="{{assets}}/js/main.min.js"></script>
+      <!-- Add fancyBox -->
+      <link rel="stylesheet" href="{{assets}}/js/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+      <script type="text/javascript" src="{{assets}}/js/jquery.fancybox.pack.js?v=2.1.5"></script>
     {{else}}
       <script>
         // Picture element HTML5 shiv
@@ -37,8 +40,25 @@
       <script src="{{assets}}/js/picturefill.min.js" async></script>
       <script src="{{assets}}/js/jquery.js"></script>
       <script src="{{assets}}/js/main.js"></script>
+      <!-- Add fancyBox -->
+      <link rel="stylesheet" href="{{assets}}/css/vendor/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+      <script type="text/javascript" src="{{assets}}/js/jquery.fancybox.pack.js?v=2.1.5"></script>
     {{/if}}
 
-    <script>$(document).foundation();</script>
+    <script>
+      $(document).foundation();
+
+      $(document).ready(function() {
+        $(".fancybox").fancybox(
+            {
+              helpers: {
+                overlay: {
+                  locked: false
+                }
+              }
+            }
+        );
+      });
+    </script>
   </body>
 </html>

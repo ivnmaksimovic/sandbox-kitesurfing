@@ -128,6 +128,10 @@ module.exports = function(grunt) {
         src: ['src/assets/js/vendor/picturefill.min.js'],
         dest: 'dist/assets/js/picturefill.min.js',
       },
+      jsfancybox: {
+        src: ['src/assets/js/vendor/jquery.fancybox.pack.js'],
+        dest: 'dist/assets/js/jquery.fancybox.pack.js',
+      },
       jsapp: {
         src: [
           'src/assets/js/foundation/foundation.js',
@@ -156,6 +160,11 @@ module.exports = function(grunt) {
           { expand: true, cwd: 'src/assets/img/', src: '**/*', dest: 'dist/assets/img/' },
         ],
       },
+      css: {
+        files: [
+          { expand: true, cwd: 'src/assets/css/', src: '**/*', dest: 'dist/assets/css/' },
+        ]
+      }
     },
 
     // Before generating any new files,

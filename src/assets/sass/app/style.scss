@@ -373,8 +373,8 @@ body {
 }
 
 @media screen and (max-width : 480px) {
-  table tr th,
-  table tr td {
+  .sub-page table tr th,
+  .sub-page table tr td {
     font-size: 0.75rem;
   }
 }

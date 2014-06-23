@@ -13,12 +13,12 @@ _prices including all necessary equipment_
 
 |Start & Storage price        |15.05.-15.07 & 01.09.-15.10.|16.07.-31.08.|
 |-----------------------------|----------------------------|-------------|
-|1 day                        |5€                          |7€           |
-|1 week                       |30€                         |40€          |
-|2 weeks                      |50€                         |70€          |
-|Extra lesson (1 hour)        |30                          |35           |
+|1 day                        |7€                          |10€          |
+|1 week                       |40€                         |60€          |
+|2 weeks                      |70€                         |100€         |
+|Extra lesson (1 hour)        |35€                         |35€          |
 
-_Price including storage(2 kites & board), rescue boat, launch and landing service_
+_Price including locker(2 kites & board), rescue boat, launch and landing service_
 
 ---
 

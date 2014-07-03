@@ -169,7 +169,22 @@ module.exports = function(grunt) {
 
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*.{html,xml}']
+    clean: ['<%= config.dist %>/**/*.{html,xml}'],
+
+    // Deploy with FTPush
+    ftpush: {
+      build: {
+        auth: {
+          host: 'bokamontenegro.com',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: '<%= config.dist %>',
+        dest: '/kitesurfingmontenegro.com',
+        simple: false,
+        useList: true
+      }
+    }
 
   });
 
@@ -211,6 +226,11 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'build'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'build',
+    'ftpush'
   ]);
 
 };

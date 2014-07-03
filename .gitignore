@@ -23,3 +23,6 @@ node_modules
 # Generated files
 dist
 .sass-cache
+
+# Deployment
+.ftppass

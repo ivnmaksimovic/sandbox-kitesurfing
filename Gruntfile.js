@@ -93,12 +93,32 @@ module.exports = function(grunt) {
       }
     },
 
+    //sass: {
+    //  main: {
+    //    files: {
+    //      'dist/assets/css/main.css': 'src/assets/sass/app/main.scss',
+    //    },
+    //  },
+    //},
+
     sass: {
-      main: {
-        files: {
-          'dist/assets/css/main.css': 'src/assets/sass/app/main.scss',
-        },
+      dev: {
+          options: {
+              outputStyle: 'nested',
+              sourceComments: 'normal'
+          },
+          files: {
+              'dist/assets/css/main.css': 'src/assets/sass/app/main.scss',
+          }
       },
+      prod: {
+          options: {
+              outputStyle: 'compressed'
+          },
+          files: {
+              'dist/assets/css/main.min.css': 'src/assets/sass/app/main.scss',
+          }
+      }
     },
 
     cssmin: {
@@ -201,10 +221,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-ftpush');
+  grunt.loadNpmTasks('grunt-sass');
 
   grunt.registerTask('server', [
     'clean',
-    'sass',
+    'sass:dev',
     'cssmin',
     'concat',
     'jshint',
@@ -216,7 +237,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'clean',
-    'sass',
+    'sass:prod',
     'cssmin',
     'concat',
     'jshint',

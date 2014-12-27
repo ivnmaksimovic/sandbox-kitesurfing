@@ -31,5 +31,9 @@ content:
   contact:                     '<%= config.src %>/content/contact.md'
   price-1:                     '<%= config.src %>/content/price-1.md'
   price-2:                     '<%= config.src %>/content/price-2.md'
+  snow-dates:                  '<%= config.src %>/content/snow-dates.md'
+  snow-spot:                   '<%= config.src %>/content/snow-spot.md'
+  snow-spot:                   '<%= config.src %>/content/snow-package.md'
+  snow-price:                  '<%= config.src %>/content/snow-price.md'
 
 

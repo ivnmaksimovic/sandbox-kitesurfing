@@ -121,16 +121,16 @@ module.exports = function(grunt) {
       }
     },
 
-    cssmin: {
-      minify: {
-        options: {},
-        expand: true,
-        cwd: 'dist/assets/css/',
-        src: [ '*.css', '!*.min.css' ],
-        dest: 'dist/assets/css/',
-        ext: '.min.css',
-      }
-    },
+    //cssmin: {
+    //  minify: {
+    //    options: {},
+    //    expand: true,
+    //    cwd: 'dist/assets/css/',
+    //    src: [ '*.css', '!*.min.css' ],
+    //    dest: 'dist/assets/css/',
+    //    ext: '.min.css',
+    //  }
+    //},
 
     concat: {
       options: {
@@ -226,7 +226,7 @@ module.exports = function(grunt) {
   grunt.registerTask('server', [
     'clean',
     'sass:dev',
-    'cssmin',
+    //'cssmin',
     'concat',
     'jshint',
     'assemble',
@@ -238,7 +238,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'clean',
     'sass:prod',
-    'cssmin',
+    //'cssmin',
     'concat',
     'jshint',
     'copy',

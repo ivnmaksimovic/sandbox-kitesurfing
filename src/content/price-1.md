@@ -3,9 +3,9 @@
 |School price                 |15.05.-15.07 & 01.09.-15.10.|16.07.-31.08.|
 |-----------------------------|----------------------------|-------------|
 |Introduction course (3 hours)|90                          |105          |
-|Beginner course (12 hours)   |300                         |350          |
+|Beginner course (10 hours)   |300                         |350          |
 |Intermediate course (6 hours)|150                         |175          |
-|Extra lesson (1 hour)        |30                          |35           |
+|Extra lesson (1 hour)        |30                          |40           |
 
 _prices including all necessary equipment_
 

@@ -25,6 +25,8 @@ content:
   team-cathy:                  '<%= config.src %>/content/team/team-cathy.md'
   team-jonny:                  '<%= config.src %>/content/team/team-jonny.md'
   team-uros:                   '<%= config.src %>/content/team/team-uros.md'
+  team-bojan:                  '<%= config.src %>/content/team/team-bojan.md'
+  team-aleksandar:             '<%= config.src %>/content/team/team-aleksandar.md'
   video:                       '<%= config.src %>/content/video.md'
   faq-1:                       '<%= config.src %>/content/faq-1.md'
   faq-2:                       '<%= config.src %>/content/faq-2.md'

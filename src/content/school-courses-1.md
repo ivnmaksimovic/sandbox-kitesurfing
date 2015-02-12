@@ -6,7 +6,7 @@ From this course you should start learning kitesurfing. Introduction course is o
 
 ### Beginner course
 
-12 hours (3-4 days)
+10 hours (3-4 days)
 
 The **most popular option for beginners**. You will learn all the basics of safety, kite set up, kite flying, bodydrag in all directions and start the most exciting part... **Getting on the board and ride !!**
 

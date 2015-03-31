@@ -15,12 +15,12 @@ You can also make a package to suit you, just contact us and we'll make a deal
 |-----------------|----------------------------|-------------|
 |Beginner package     |450                     |550          |
 |Intermediate package |400                     |500          |
-|Basic package        |150                     |180          |
+|Basic package        |180                     |210          |
 |Rental package       |300                     |400          |
 
 |App HOTEL Palata Venezia (4*)|15.05.-15.07 & 01.09.-15.10.|16.07.-31.08.|
 |-----------------|----------------------------|-------------|
 |Beginner package     |650                     |750          |
 |Intermediate package |600                     |700          |
-|Basic package        |370                     |420          |
+|Basic package        |400                     |450          |
 |Rental package       |520                     |630          |

@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         options: {
           spawn: false
         },
-        tasks: ['sass', 'cssmin']
+        tasks: ['sass']
       },
       concat: {
         files: ['src/assets/js/**/*.js'],

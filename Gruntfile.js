@@ -93,14 +93,6 @@ module.exports = function(grunt) {
       }
     },
 
-    //sass: {
-    //  main: {
-    //    files: {
-    //      'dist/assets/css/main.css': 'src/assets/sass/app/main.scss',
-    //    },
-    //  },
-    //},
-
     sass: {
       dev: {
           options: {
@@ -118,6 +110,16 @@ module.exports = function(grunt) {
           files: {
               'dist/assets/css/main.min.css': 'src/assets/sass/app/main.scss',
           }
+      },
+      bower: {
+        options: {
+          includePaths: ['bower_components'],
+          outputStyle: 'nested',
+          sourceComments: 'normal'
+        },
+        files: {
+          'dist/assets/css/sandbox.css': 'src/assets/sass/app/sandbox.scss',
+        }
       }
     },
 
@@ -217,7 +219,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  //grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-ftpush');
@@ -225,7 +227,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('server', [
     'clean',
-    'sass:dev',
+    'sass:bower',
     'concat',
     'jshint',
     'assemble',

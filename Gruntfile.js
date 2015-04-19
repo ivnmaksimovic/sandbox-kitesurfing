@@ -94,21 +94,24 @@ module.exports = function(grunt) {
     },
 
     sass: {
+      options: {
+        includePaths: ['bower_components']
+      },
       dev: {
-          options: {
-              outputStyle: 'nested',
-              sourceComments: 'normal'
-          },
-          files: {
-              'dist/assets/css/main.css': 'src/assets/sass/app/main.scss',
-          }
+        options: {
+          outputStyle: 'nested',
+          sourceComments: 'normal'
+        },
+        files: {
+          'dist/assets/css/sandbox.css': 'src/assets/sass/app/sandbox.scss'
+        }
       },
       prod: {
           options: {
               outputStyle: 'compressed'
           },
           files: {
-              'dist/assets/css/main.min.css': 'src/assets/sass/app/main.scss',
+            'dist/assets/css/sandbox.min.css': 'src/assets/sass/app/sandbox.scss'
           }
       },
       bower: {
@@ -118,7 +121,7 @@ module.exports = function(grunt) {
           sourceComments: 'normal'
         },
         files: {
-          'dist/assets/css/sandbox.css': 'src/assets/sass/app/sandbox.scss',
+          'dist/assets/css/sandbox.css': 'src/assets/sass/app/sandbox.scss'
         }
       }
     },
@@ -227,7 +230,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('server', [
     'clean',
-    'sass:bower',
+    'sass:prod',
     'concat',
     'jshint',
     'assemble',

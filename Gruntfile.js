@@ -113,57 +113,35 @@ module.exports = function(grunt) {
           files: {
             'dist/assets/css/sandbox.min.css': 'src/assets/sass/app/sandbox.scss'
           }
-      },
-      bower: {
-        options: {
-          includePaths: ['bower_components'],
-          outputStyle: 'nested',
-          sourceComments: 'normal'
-        },
-        files: {
-          'dist/assets/css/sandbox.css': 'src/assets/sass/app/sandbox.scss'
-        }
       }
     },
 
-    //cssmin: {
-    //  minify: {
-    //    options: {},
-    //    expand: true,
-    //    cwd: 'dist/assets/css/',
-    //    src: [ '*.css', '!*.min.css' ],
-    //    dest: 'dist/assets/css/',
-    //    ext: '.min.css',
-    //  }
-    //},
-
     concat: {
       options: {
-        separator: ';',
+        separator: ';'
       },
       jsmod: {
         src: ['src/assets/js/vendor/modernizer.js'],
-        dest: 'dist/assets/js/modernizer.js',
+        dest: 'dist/assets/js/modernizer.js'
       },
       jsvend: {
         src: ['src/assets/js/vendor/jquery.js'],
-        dest: 'dist/assets/js/jquery.js',
+        dest: 'dist/assets/js/jquery.js'
       },
       jspicture: {
         src: ['src/assets/js/vendor/picturefill.min.js'],
-        dest: 'dist/assets/js/picturefill.min.js',
+        dest: 'dist/assets/js/picturefill.min.js'
       },
       jsfancybox: {
         src: ['src/assets/js/vendor/jquery.fancybox.pack.js'],
-        dest: 'dist/assets/js/jquery.fancybox.pack.js',
+        dest: 'dist/assets/js/jquery.fancybox.pack.js'
       },
       jsapp: {
         src: [
-          'src/assets/js/foundation/foundation.js',
-          'src/assets/js/foundation/{,*/,!foundation.js}*.js',
+          'bower_components/foundation/js/foundation.min.js',
           'src/assets/js/app/{,*/}*.js'],
-        dest: 'dist/assets/js/main.js',
-      },
+        dest: 'dist/assets/js/main.js'
+      }
     },
 
     jshint: {

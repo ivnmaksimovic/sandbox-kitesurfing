@@ -200,19 +200,19 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  //grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-ftpush');
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-newer');
 
   grunt.registerTask('server', [
-    'clean',
+    'newer:clean',
     'sass:prod',
     'concat',
-    'jshint',
+    'newer:jshint',
     'assemble',
-    'copy',
+    'newer:copy',
     'connect:livereload',
     'watch'
   ]);
@@ -220,7 +220,6 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'clean',
     'sass:prod',
-    //'cssmin',
     'concat',
     'jshint',
     'copy',

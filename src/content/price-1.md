@@ -1,6 +1,6 @@
 
 
-|School price                 |15.05.-15.07 & 01.09.-15.10.|16.07.-31.08.|
+|School price                 |15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
 |-----------------------------|----------------------------|-------------|
 |Beginner course (10 hours)   |300                         |350          |
 |Intermediate course (5 hours)|150                         |175          |
@@ -10,7 +10,7 @@ _prices including all necessary equipment_
 
 ---
 
-|Start & Storage price        |15.05.-15.07 & 01.09.-15.10.|16.07.-31.08.|
+|Start & Storage price        |15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
 |-----------------------------|----------------------------|-------------|
 |1 day                        |7€                          |10€          |
 |1 week                       |40€                         |60€          |
@@ -22,7 +22,7 @@ _Price including locker(2 kites & board), rescue boat, launch and landing servic
 
 |Rent price                   |    |     |        |
 |-----------------------------|----|-----|--------|
-|15.05.-15.07 & 01.09.-15.10. |kite|board|complet |
+|15.05.-30.06 & 01.09.-01.10. |kite|board|complet |
 |1 day                        |20€ |15€  |35€     |
 |1 week                       |100€|75€  |175€    |
 
@@ -30,7 +30,7 @@ _Price including locker(2 kites & board), rescue boat, launch and landing servic
 
 |Rent price                   |    |     |        |
 |-----------------------------|----|-----|--------|
-|16.07.-31.08.                |kite|board|complet |
+|01.07.-31.08.                |kite|board|complet |
 |1 day                        |30€ |20€  |50€     |
 |1 week                       |150€|100€ |250€    |
 

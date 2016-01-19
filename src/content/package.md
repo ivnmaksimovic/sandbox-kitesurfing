@@ -15,6 +15,6 @@ Total Beginners as well as intermediate and advanced kitesurfers will be totally
 - Evening gathering with the campfire and barbecue (world famous chevapchici)
 - Excursion to the beautiful restaurants on the river Bojana (where you can eat the best fish in the Adriatic), including boat ride 
 - Many small surprises from our smiling staff ;)
-The airport transfer is not included in the price (Podgorica 50 € / Tivat 60 € one way per car). Alternatively, we can offer you a rental car.
+The airport transfer is not included in the price (Podgorica 60 € / Tivat 60 € one way per car). Alternatively, we can offer you a rental car.
 
 **If you do not complete the course due to weather conditions or other real reason we will refund part of your money.**

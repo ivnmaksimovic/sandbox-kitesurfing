@@ -6,3 +6,11 @@ created using assemble static site generator
 
   npm install
   grunt build
+  
+## Developing
+
+  grunt server
+  
+## Deploying
+
+  grunt deploy

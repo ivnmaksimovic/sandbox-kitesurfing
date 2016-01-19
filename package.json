@@ -34,12 +34,12 @@
     "grunt-contrib-requirejs": "~0.4.3",
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-ftpush": "^0.3.3",
-    "grunt-newer": "^1.1.0",
+    "grunt-ftpush": "0.3.3",
+    "grunt-newer": "1.1.0",
     "grunt-sass": "^0.18.1",
-    "load-grunt-tasks": "~0.4.0",
-    "node-sass": "~0.9.3",
-    "time-grunt": "~0.3.1"
+    "load-grunt-tasks": "0.4.0",
+    "node-sass": "2.0.1",
+    "time-grunt": "0.3.1"
   },
   "licenses": [
     {

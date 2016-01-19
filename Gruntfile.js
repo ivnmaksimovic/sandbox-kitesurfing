@@ -85,7 +85,7 @@ module.exports = function(grunt) {
           layout: '<%= config.src %>/templates/layouts/default.hbs',
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-sitemap'],
+          plugins: ['assemble-contrib-sitemap']
         },
         files: {
           '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
@@ -108,7 +108,7 @@ module.exports = function(grunt) {
       },
       prod: {
           options: {
-              outputStyle: 'compressed'
+            outputStyle: 'compressed'
           },
           files: {
             'dist/assets/css/sandbox.min.css': 'src/assets/sass/app/sandbox.scss'
@@ -151,8 +151,8 @@ module.exports = function(grunt) {
         eqnull: true,
         browser: true,
         globals: {
-          jQuery: true,
-        },
+          jQuery: true
+        }
       },
       beforeconcat: ['src/assets/js/app/app.js']
     },
@@ -160,12 +160,12 @@ module.exports = function(grunt) {
     copy: {
       img: {
         files: [
-          { expand: true, cwd: 'src/assets/img/', src: '**/*', dest: 'dist/assets/img/' },
-        ],
+          { expand: true, cwd: 'src/assets/img/', src: '**/*', dest: 'dist/assets/img/' }
+        ]
       },
       css: {
         files: [
-          { expand: true, cwd: 'src/assets/css/', src: '**/*', dest: 'dist/assets/css/' },
+          { expand: true, cwd: 'src/assets/css/', src: '**/*', dest: 'dist/assets/css/' }
         ]
       }
     },

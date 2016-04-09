@@ -2,13 +2,13 @@
 
 #### Beginner package
 
-Twelve hours of kite course (see description in school) including kite gear rental for the rest of the week.
+Ten hours of kite course (see description in school) including kite gear rental for the rest of the week.
 
 Selected accomodation and included services.
 
 #### Intermediate package
 
-Six hours of kite course (see description in school)  including kite gear rental for the rest of the week.
+Five hours of kite course (see description in school)  including kite gear rental for the rest of the week.
 
 Selected accomodation and included services.
 

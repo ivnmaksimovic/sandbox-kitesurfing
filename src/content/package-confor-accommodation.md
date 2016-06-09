@@ -1,8 +1,9 @@
-#### Confor apartments
+#### Private apartments
 
 **7.7 Review score on booking.com**
 
 Located 2 km away from the spot, 10 km from the town of Ulcinj. It offers air-conditioned apartments and studios featuring a furnished balcony with a garden view. Free Wi-Fi is provided.
+There is also a pool and a restaurant for guests.
 
 All accommodation units come with satellite TV, a kitchen or a kitchenette and a private bathroom. Some units also comprise a living area.
 

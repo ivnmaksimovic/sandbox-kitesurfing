@@ -1,4 +1,4 @@
-#### Private apartments
+#### Confor apartments
 
 **7.7 Review score on booking.com**
 

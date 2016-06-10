@@ -4,9 +4,9 @@
 |-----------------------------|----------------------------|-------------|
 |Beginner course (10 hours)   |300                         |350          |
 |Intermediate course (5 hours)|150                         |175          |
-|Extra lesson (1 hour)        |40                          |50           |
+|Individual lesson (1 hour)   |40                          |50           |
 
-_prices including all necessary equipment_
+_Prices including all necessary equipment. Course prices are for group lessons (2-3 people)_
 
 ---
 

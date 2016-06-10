@@ -1,9 +1,18 @@
 ### Package prices
 
 The prices are per person per week and include the following services.
-You can also make a package to suit you, just contact us and we'll make a deal
+You can also make a package to suit you, just contact us and we'll make a deal.
+
+**Prices for single person are 20% higher.**
 
 |Private apartments|15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
+|-----------------|----------------------------|-------------|
+|Beginner package     |450                     |550          |
+|Intermediate package |400                     |500          |
+|Basic package        |180                     |210          |
+|Rental package       |300                     |400          |
+
+|Confor apartments|15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
 |-----------------|----------------------------|-------------|
 |Beginner package     |550                     |650          |
 |Intermediate package |500                     |600          |

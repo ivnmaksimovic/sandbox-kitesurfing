@@ -184,7 +184,7 @@ module.exports = function(grunt) {
         },
         src: '<%= config.dist %>',
         dest: '/kitesurfingmontenegro.com',
-        simple: false,
+        simple: true,
         useList: true
       }
     }

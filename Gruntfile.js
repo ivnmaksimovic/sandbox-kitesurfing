@@ -183,7 +183,7 @@ module.exports = function(grunt) {
 
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*.{html,xml}'],
+    clean: ['<%= config.dist %>/**/*'],
 
     // Deploy with FTPush
     ftpush: {
@@ -195,6 +195,7 @@ module.exports = function(grunt) {
         },
         src: '<%= config.dist %>',
         dest: '/kitesurfingmontenegro.com',
+        exclusions: 'weather',
         simple: true,
         useList: true
       }

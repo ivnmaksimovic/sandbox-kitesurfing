@@ -8,6 +8,7 @@ $('.js-get-weather-rss').on('click', function(e){
   }).done(function (response) {
     Weather.setWeather(response);
     console.log(response);
+    //console.log(Weather.getCurrent().description);
     console.log(Weather.getCurrent());
 
   });
@@ -18,7 +19,8 @@ var Weather = (function () {
   var current = {
     title: "",
     pubDate: "",
-    description: ""
+    description: "",
+    content: ""
   };
 
   return {
@@ -52,6 +54,7 @@ var Weather = (function () {
       current.title = currentWeatherData.find('title').html();
       current.pubDate = currentWeatherData.find('pubDate').html();
       current.description = currentWeatherData.find('description').html();
+      current.content = currentWeatherData.find('encoded').html();
     }
-  }
+  };
 })();

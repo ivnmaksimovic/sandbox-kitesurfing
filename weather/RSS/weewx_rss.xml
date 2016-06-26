@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+   <channel>
+      <title>Sandbox beach, Montenegro, Weather Conditions</title>
+      <link></link>
+      <description>Current conditions, and daily, monthly, and yearly summaries</description>
+      <language>en-us</language>
+      <pubDate>Sun, 26 Jun 2016 13:40:00 CEST</pubDate>
+
+      <lastBuildDate>Sun, 26 Jun 2016 13:40:00 CEST</lastBuildDate>
+      <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+      <generator>weewx 3.1.0</generator>
+      <ttl>5.000000 minutes</ttl>
+      
+      <item>
+         <title>Weather Conditions at 06/26/16 13:40:00</title>
+         <link></link>
+         <description>
+           Outside temperature: 35.5&#176;C; 
+           Barometer: 1006.6 mbar; 
+           Wind: 2.1 m/s from 244&#176;; 
+           Rain rate: 0.0 mm/hr; 
+           Inside temperature: 29.4&#176;C
+         </description>
+         <pubDate>Sun, 26 Jun 2016 13:40:00 CEST</pubDate>
+	     <geo:lat>41.8822424</geo:lat>
+    	 <geo:long>19.3186024</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Time:                06/26/16 13:40:00<br/>
+             Outside Temperature: 35.5&#176;C<br/>
+             Inside Temperature:  29.4&#176;C<br/>
+             Wind Chill:          35.5&#176;C<br/>
+             Heat Index:          42.0&#176;C<br/>
+             Dewpoint:            23.5&#176;C<br/>
+             Humidity:            50%<br/>
+             Barometer:           1006.6 mbar<br/>
+             Wind:                2.1 m/s from 244&#176;<br/>
+             Rain Rate:           0.0 mm/hr<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Daily Weather Summary as of 06/26/16 13:40:00</title>
+         <link></link>
+         <description>
+	        Min outside temperature: 28.9&#176;C at 08:30:15;
+         	Max outside temperature: 35.7&#176;C at 13:37:56;
+	        Min inside temperature:  26.6&#176;C at 08:31:48;
+	        Max inside temperature:  29.7&#176;C at 13:21:35;
+	        Min barometer:           1006.1 mbar at 13:38:15;
+	        Max barometer:           1008.1 mbar at 08:37:16;
+            Max wind :               4.6 m/s from 248&#176; at 12:24:01;
+            Rain today:              0.0 mm
+         </description>
+         <pubDate>Sun, 26 Jun 2016 13:40:00 CEST</pubDate>
+	     <geo:lat>41.8822424</geo:lat>
+    	 <geo:long>19.3186024</geo:long>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Day:                     26 Jun 2016<br/>
+	         Min Outside Temperature: 28.9&#176;C at 08:30:15<br/>
+	         Max Outside Temperature: 35.7&#176;C at 13:37:56<br/>
+	         Min Inside Temperature:  26.6&#176;C at 08:31:48<br/>
+	         Max Inside Temperature:  29.7&#176;C at 13:21:35<br/>
+	         Min Barometer:           1006.1 mbar at 13:38:15<br/>
+	         Max Barometer:           1008.1 mbar at 08:37:16<br/>
+             Max Wind :               4.6 m/s from 248&#176; at 12:24:01<br/>
+             Rain today:              0.0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Monthly Weather Summary as of 06/26/16 13:40:00</title>
+         <link>/month.html</link>
+         <description>
+	        Min outside temperature: 24.9&#176;C at 06/25/16 22:15:37;
+         	Max outside temperature: 48.7&#176;C at 06/25/16 16:24:02;
+	        Min inside temperature:  26.6&#176;C at 06/26/16 08:31:48;
+	        Max inside temperature:  39.3&#176;C at 06/24/16 15:24:13;
+	        Min barometer:           1002.1 mbar at 06/25/16 18:00:14;
+	        Max barometer:           1010.1 mbar at 06/24/16 09:54:33;
+            Max wind :               5.6 m/s from 22&#176; at 06/25/16 12:36:01;
+            Rain total for month:    0.0 mm
+         </description>
+         <pubDate>Sun, 26 Jun 2016 13:40:00 CEST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Month:                   June 2016<br/>
+	         Max Outside Temperature: 48.7&#176;C at 06/25/16 16:24:02<br/>
+	         Min Outside Temperature: 24.9&#176;C at 06/25/16 22:15:37<br/>
+	         Max Inside Temperature:  39.3&#176;C at 06/24/16 15:24:13<br/>
+	         Min Inside Temperature:  26.6&#176;C at 06/26/16 08:31:48<br/>
+	         Min Barometer:           1002.1 mbar at 06/25/16 18:00:14<br/>
+	         Max Barometer:           1010.1 mbar at 06/24/16 09:54:33<br/>
+             Max Wind :               5.6 m/s from 22&#176; at 06/25/16 12:36:01<br/>
+             Rain total for month:    0.0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+      <item>
+         <title>Yearly Weather Summary as of 06/26/16 13:40:00</title>
+         <link>/year.html</link>
+         <description>
+	        Min outside temperature: 24.9&#176;C at 06/25/16 22:15:37;
+         	Max outside temperature: 48.7&#176;C at 06/25/16 16:24:02;
+	        Min inside temperature:  26.6&#176;C at 06/26/16 08:31:48;
+	        Max inside temperature:  39.3&#176;C at 06/24/16 15:24:13;
+	        Min barometer:           1002.1 mbar at 06/25/16 18:00:14;
+	        Max barometer:           1010.1 mbar at 06/24/16 09:54:33;
+            Max wind :               5.6 m/s from 22&#176; at 06/25/16 12:36:01;
+            Rain total for year:     0.0 mm
+         </description>
+         <pubDate>Sun, 26 Jun 2016 13:40:00 CEST</pubDate>
+ 		 <content:encoded><![CDATA[
+           <p>
+             Year:                    2016<br/>
+	         Max Outside Temperature: 48.7&#176;C at 06/25/16 16:24:02<br/>
+	         Min Outside Temperature: 24.9&#176;C at 06/25/16 22:15:37<br/>
+	         Max Inside Temperature:  39.3&#176;C at 06/24/16 15:24:13<br/>
+	         Min Inside Temperature:  26.6&#176;C at 06/26/16 08:31:48<br/>
+	         Min Barometer:           1002.1 mbar at 06/25/16 18:00:14<br/>
+	         Max Barometer:           1010.1 mbar at 06/24/16 09:54:33<br/>
+             Max Wind :               5.6 m/s from 22&#176; at 06/25/16 12:36:01<br/>
+             Rain total for year:     0.0 mm<br/>
+        </p>
+      ]]></content:encoded>
+      </item>
+
+   </channel>
+</rss>
+

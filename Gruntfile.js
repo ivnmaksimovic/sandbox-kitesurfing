@@ -167,6 +167,11 @@ module.exports = function(grunt) {
         files: [
           { expand: true, cwd: 'src/assets/css/', src: '**/*', dest: 'dist/assets/css/' }
         ]
+      },
+      weather: {
+        files: [
+          { expand: true, cwd: 'weather/', src: '**/*', dest: 'dist/weather/' }
+        ]
       }
     },
 
@@ -212,7 +217,9 @@ module.exports = function(grunt) {
     'concat',
     'newer:jshint',
     'assemble',
-    'newer:copy',
+    'newer:copy:css',
+    'newer:copy:img',
+    'newer:copy:weather', // sample rss files just for development
     'connect:livereload',
     'watch'
   ]);
@@ -222,7 +229,8 @@ module.exports = function(grunt) {
     'sass:prod',
     'concat',
     'jshint',
-    'copy',
+    'copy:css',
+    'copy:img',
     'assemble'
   ]);
 

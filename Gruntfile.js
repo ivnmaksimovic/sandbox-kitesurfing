@@ -172,6 +172,12 @@ module.exports = function(grunt) {
         files: [
           { expand: true, cwd: 'weather/', src: '**/*', dest: 'dist/weather/' }
         ]
+      },
+      config: {
+        files: [
+          { expand: true, cwd: 'src/', src: 'browserconfig.xml', dest: 'dist/' },
+          { expand: true, cwd: 'src/', src: 'manifest.json', dest: 'dist/' }
+        ]
       }
     },
 
@@ -217,6 +223,7 @@ module.exports = function(grunt) {
     'concat',
     'newer:jshint',
     'assemble',
+    'newer:copy:config',
     'newer:copy:css',
     'newer:copy:img',
     'newer:copy:weather', // sample rss files just for development
@@ -229,6 +236,7 @@ module.exports = function(grunt) {
     'sass:prod',
     'concat',
     'jshint',
+    'copy:config',
     'copy:css',
     'copy:img',
     'assemble'

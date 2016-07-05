@@ -8,9 +8,8 @@ $('.js-get-weather-rss').on('click', function(e){
   }).done(function (response) {
     Weather.setWeather(response);
     console.log(response);
-    //console.log(Weather.getCurrent().description);
-    console.log(Weather.getCurrent());
-
+    console.log(Weather.getMonthly());
+    $('.js-weather-data').html(Weather.getMonthly().description);
   });
 
 });
@@ -23,10 +22,32 @@ var Weather = (function () {
     content: ""
   };
 
+  var day = {
+    title: "",
+    pubDate: "",
+    description: "",
+    content: ""
+  };
+
+  var month = {
+    title: "",
+    pubDate: "",
+    description: "",
+    content: ""
+  };
+
+  var year = {
+    title: "",
+    pubDate: "",
+    description: "",
+    content: ""
+  };
+
   return {
     /**
      * Returns weather summary part from parsed weather RSS.
-     * timeFrame defaults to current
+     * timeFrame defaults to current. RSS contains more "item"s which are
+     * daily, monthly and yearly weather data
      * @param weatherData
      * @param timeFrame
      * @returns {*|jQuery}
@@ -48,13 +69,43 @@ var Weather = (function () {
       return current;
     },
 
+    geDaily: function () {
+      return day;
+    },
+
+    getMonthly: function () {
+      return month;
+    },
+
+    getYearly: function () {
+      return year;
+    },
+
     setWeather: function (weatherData) {
       var self = this;
-      var currentWeatherData = self.getWeatherSummary(weatherData);
+      var currentWeatherData = self.getWeatherSummary(weatherData, "current");
       current.title = currentWeatherData.find('title').html();
       current.pubDate = currentWeatherData.find('pubDate').html();
       current.description = currentWeatherData.find('description').html();
       current.content = currentWeatherData.find('encoded').html();
+
+      var dayWeatherData = self.getWeatherSummary(weatherData, "day");
+      day.title = dayWeatherData.find('title').html();
+      day.pubDate = dayWeatherData.find('pubDate').html();
+      day.description = dayWeatherData.find('description').html();
+      day.content = dayWeatherData.find('encoded').html();
+
+      var monthWeatherData = self.getWeatherSummary(weatherData, "month");
+      month.title = monthWeatherData.find('title').html();
+      month.pubDate = monthWeatherData.find('pubDate').html();
+      month.description = monthWeatherData.find('description').html();
+      month.content = monthWeatherData.find('encoded').html();
+
+      var yearWeatherData = self.getWeatherSummary(weatherData, "year");
+      year.title = yearWeatherData.find('title').html();
+      year.pubDate = yearWeatherData.find('pubDate').html();
+      year.description = yearWeatherData.find('description').html();
+      year.content = yearWeatherData.find('encoded').html();
     }
   };
 })();

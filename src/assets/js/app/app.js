@@ -1,16 +1,23 @@
 $('.js-get-weather-rss').on('click', function(e){
   e.preventDefault();
 
-  $.ajax({
+  var getWeatherRequest = $.ajax({
     type: "GET",
     url: "/weather/RSS/weewx_rss.xml",
-    dataType: "xml"
-  }).done(function (response) {
+    dataType: "xml",
+    timeout: 30000 // timeout after 30 seconds
+  });
+
+  getWeatherRequest.done(function (response) {
     Weather.setWeather(response);
     console.log(response);
     console.log(Weather.getCurrent());
     $('.js-weather-date').html(Weather.getCurrent().title);
     $('.js-weather-text').html(Weather.getCurrent().description);
+  });
+
+  getWeatherRequest.fail(function(jqXHR, textStatus) {
+    console.log("could not get latest data");
   });
 
 });

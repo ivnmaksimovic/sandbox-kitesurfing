@@ -12,3 +12,12 @@
     display: none;
   }
 }
+
+.weather-info {
+  position: absolute;
+  top: 55px;
+  left: 25px;
+  color: #ffffff;
+  z-index: 100;
+  opacity: 0.6;
+}

@@ -8,8 +8,9 @@ $('.js-get-weather-rss').on('click', function(e){
   }).done(function (response) {
     Weather.setWeather(response);
     console.log(response);
-    console.log(Weather.getMonthly());
-    $('.js-weather-data').html(Weather.getMonthly().description);
+    console.log(Weather.getCurrent());
+    $('.js-weather-date').html(Weather.getCurrent().title);
+    $('.js-weather-text').html(Weather.getCurrent().description);
   });
 
 });

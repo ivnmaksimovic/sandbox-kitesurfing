@@ -18,7 +18,8 @@
     "node": ">=0.8"
   },
   "scripts": {
-    "test": "grunt assemble"
+    "start": "grunt server",
+    "build-prod": "grunt build"
   },
   "devDependencies": {
     "assemble": "~0.4.37",

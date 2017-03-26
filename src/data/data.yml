@@ -14,7 +14,7 @@ content:
   package:                     '<%= config.src %>/content/package.md'
   package-packages:            '<%= config.src %>/content/package-packages.md'
   package-accommodation:       '<%= config.src %>/content/package-accommodation.md'
-  package-confor-accommodation:  '<%= config.src %>/content/package-confor-accommodation.md'
+  package-sandbox-accommodation:  '<%= config.src %>/content/package-sandbox-accommodation.md'
   package-private-accommodation:  '<%= config.src %>/content/package-private-accommodation.md'
   package-venezia-accommodation: '<%= config.src %>/content/package-venezia-accommodation.md'
   package-prices:              '<%= config.src %>/content/package-prices.md'
@@ -38,5 +38,3 @@ content:
   snow-spot:                   '<%= config.src %>/content/snow-spot.md'
   snow-spot:                   '<%= config.src %>/content/snow-package.md'
   snow-price:                  '<%= config.src %>/content/snow-price.md'
-
-

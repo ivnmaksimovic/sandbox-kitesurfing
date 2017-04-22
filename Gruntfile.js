@@ -95,7 +95,7 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        includePaths: ['bower_components']
+        includePaths: ['node_modules']
       },
       dev: {
         options: {
@@ -138,7 +138,7 @@ module.exports = function(grunt) {
       },
       jsapp: {
         src: [
-          'bower_components/foundation/js/foundation.min.js',
+          'node_modules/foundation-sites/js/foundation.min.js',
           'src/assets/js/app/{,*/}*.js'],
         dest: 'dist/assets/js/main.js'
       }

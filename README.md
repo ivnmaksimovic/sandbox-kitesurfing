@@ -2,15 +2,18 @@
 
 created using assemble static site generator
 
+## Requirements
+
+  NodeJS and NPM
+
 ## Installation
 
-  npm install
-  grunt build
-  
+  `npm install`or `yarn`
+
 ## Developing
 
-  grunt server
-  
+  `npm start`
+
 ## Deploying
 
-  grunt deploy
+  `npm run deploy-prod`

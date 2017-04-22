@@ -18,13 +18,15 @@
     "node": ">=0.8"
   },
   "scripts": {
-    "start": "grunt server",
-    "build-prod": "grunt build"
+    "start": "grunt",
+    "build-prod": "grunt build",
+    "deploy-prod": "grunt deploy"
   },
   "devDependencies": {
     "assemble": "~0.4.37",
     "assemble-contrib-sitemap": "*",
     "grunt": "~0.4.4",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "~0.4.0",
     "grunt-contrib-connect": "~0.7.1",

@@ -218,7 +218,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-newer');
 
-  grunt.registerTask('server', [
+  grunt.registerTask('default', [
     'newer:clean',
     'sass:prod',
     'concat',
@@ -241,10 +241,6 @@ module.exports = function(grunt) {
     'copy:css',
     'copy:img',
     'assemble'
-  ]);
-
-  grunt.registerTask('default', [
-    'build'
   ]);
 
   grunt.registerTask('deploy', [

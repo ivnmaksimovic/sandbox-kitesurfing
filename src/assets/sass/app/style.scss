@@ -332,7 +332,8 @@ body {
   }
 }
 
-#school .intro blockquote {
+#school .intro blockquote,
+#price .intro blockquote {
   top: 70%;
 
   @media screen and (max-width : 480px) {

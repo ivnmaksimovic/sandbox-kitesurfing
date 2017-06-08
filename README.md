@@ -1,5 +1,7 @@
 # Sandbox website
 
+[http://kitesurfingmontenegro.com](http://kitesurfingmontenegro.com/)
+
 created using assemble static site generator
 
 ## Requirements
@@ -8,7 +10,7 @@ created using assemble static site generator
 
 ## Installation
 
-  `npm install`or `yarn`
+  `npm install` or `yarn`
 
 ## Developing
 

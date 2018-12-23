@@ -8,10 +8,10 @@ The best currency to bring with you is the euro (not US Dollars or Pounds).
 
 #### Do you have WiFi on the spot?
 
-Yes We have.
+Yes we have.
 #### Do you have rescue boat?
 
-Yes We have.
+Yes we have.
 
 #### Is it allowed to camp on the beach
 

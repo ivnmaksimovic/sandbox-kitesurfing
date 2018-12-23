@@ -6,7 +6,7 @@ created using assemble static site generator
 
 ## Requirements
 
-  NodeJS and NPM
+  Node 6 and NPM
 
 ## Installation
 

@@ -18,4 +18,6 @@ created using assemble static site generator
 
 ## Deploying
 
+- copy `.ftppass-example` to `.ftppass` and update key1 username and password for ftp hosting
+
   `npm run deploy-prod`

@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "grunt",
-    "build-prod": "grunt build",
+    "build-prod": "grunt build && cpx \"zohoverify/**/*\" dist/zohoverify",
     "deploy-prod": "grunt deploy"
   },
   "devDependencies": {
@@ -57,6 +57,7 @@
     "lessons"
   ],
   "dependencies": {
+    "cpx": "^1.5.0",
     "foundation-sites": "5.5.3"
   }
 }

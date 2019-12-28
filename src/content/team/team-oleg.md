@@ -1,4 +1,4 @@
 ### Oleg Axenov
-+ IKO instructor
++ Instructor
 + Nationality: Ukrain
 + Speak: Ukrain, Russian, English, Polish

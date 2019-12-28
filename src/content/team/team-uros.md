@@ -1,4 +1,4 @@
 ### Uroš Lukić
-+ IKO instructor
++ Instructor
 + Nationality: Serbian
 + Speak: Serbian, Italian, English

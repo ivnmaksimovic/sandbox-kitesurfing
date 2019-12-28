@@ -1,4 +1,4 @@
 ### Bojan Miljanić
-+ IKO instructor lvl2
++ Instructor
 + Nationality: Serbian
 + Speak: Serbian, English

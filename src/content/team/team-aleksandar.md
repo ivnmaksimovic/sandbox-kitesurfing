@@ -1,4 +1,4 @@
 ### Aleksandar Gvozden
-+ IKO instructor lvl1
++ Instructor
 + Nationality: Serbian
 + Speak: Serbian, French, Spanish, English

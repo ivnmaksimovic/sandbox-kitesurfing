@@ -1,5 +1,5 @@
 ### Cathy Padgett
-+ IKO instructor
++ Instructor
 + Nationality: British
 + Speak: English, Spanish
 

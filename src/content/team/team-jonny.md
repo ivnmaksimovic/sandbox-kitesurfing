@@ -1,5 +1,5 @@
 ### Jonny Smith
-+ IKO instructor
++ Instructor
 + Nationality: British
 + Speak: English, Spanish
 

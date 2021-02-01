@@ -36,5 +36,5 @@ content:
   price-2:                     '<%= config.src %>/content/price-2.md'
   snow-dates:                  '<%= config.src %>/content/snow-dates.md'
   snow-spot:                   '<%= config.src %>/content/snow-spot.md'
-  snow-spot:                   '<%= config.src %>/content/snow-package.md'
+  snow-package:                '<%= config.src %>/content/snow-package.md'
   snow-price:                  '<%= config.src %>/content/snow-price.md'

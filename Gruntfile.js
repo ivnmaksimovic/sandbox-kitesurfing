@@ -1,3 +1,4 @@
+const sass = require('node-sass')
 /*
  * Generated on 2014-04-03
  * generator-assemble v0.4.11
@@ -95,7 +96,8 @@ module.exports = function(grunt) {
 
     sass: {
       options: {
-        includePaths: ['node_modules']
+        includePaths: ['node_modules'],
+        implementation: sass
       },
       dev: {
         options: {
@@ -185,25 +187,9 @@ module.exports = function(grunt) {
     // remove any previously-created files.
     clean: ['<%= config.dist %>/**/*'],
 
-    // Deploy with FTPush
-    ftpush: {
-      build: {
-        auth: {
-          host: 'bokamontenegro.com',
-          port: 21,
-          authKey: 'key1'
-        },
-        src: '<%= config.dist %>',
-        dest: '/kitesurfingmontenegro.com',
-        exclusions: 'weather',
-        simple: true,
-        useList: true
-      }
-    }
-
   });
 
-  grunt.loadNpmTasks('assemble');
+  grunt.loadNpmTasks('grunt-assemble');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
@@ -214,7 +200,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
-  grunt.loadNpmTasks('grunt-ftpush');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-newer');
 
@@ -241,11 +226,6 @@ module.exports = function(grunt) {
     'copy:css',
     'copy:img',
     'assemble'
-  ]);
-
-  grunt.registerTask('deploy', [
-    'build',
-    'ftpush'
   ]);
 
 };

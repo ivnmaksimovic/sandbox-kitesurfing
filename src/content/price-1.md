@@ -31,7 +31,7 @@ _Price including locker(2 kites & board), rescue boat, launch and landing servic
 |Rent price                   |    |     |        |
 |-----------------------------|----|-----|--------|
 |01.07.-31.08.                |kite|board|complet |
-|1 day                        |40€ |20€  |60€     |
+|1 day                        |54€ |26€  |80€     |
 |1 week                       |240€|120€ |360€    |
 
 _Complet incuding kite, board, harnes and wetsuit_

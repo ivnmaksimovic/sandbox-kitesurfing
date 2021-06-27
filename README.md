@@ -16,8 +16,6 @@ created using assemble static site generator
 
   `npm start`
 
-## Deploying
+## Deployment
 
-- copy `.ftppass-example` to `.ftppass` and update key1 username and password for ftp hosting
-
-  `npm run deploy-prod`
+https://github.com/ivnmaksimovic/ci-cd

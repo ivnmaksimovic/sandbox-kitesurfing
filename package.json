@@ -15,11 +15,12 @@
     "url": "https://github.com/ivnmaksimovic/sandbox-kitesurfing/issues"
   },
   "engines": {
-    "node": ">=0.8"
+    "node": ">=16.0.0"
   },
   "scripts": {
     "start": "grunt",
-    "build-prod": "grunt build && cpx \"zohoverify/**/*\" dist/zohoverify"
+    "build-prod": "grunt build && cpx \"zohoverify/**/*\" dist/zohoverify",
+    "resize": "node ./img-resizer"
   },
   "devDependencies": {
     "assemble": "~0.24.3",
@@ -42,6 +43,7 @@
     "grunt-sass": "3.1.0",
     "load-grunt-tasks": "5.1.0",
     "node-sass": "6.0.0",
+    "sharp": "^0.30.2",
     "time-grunt": "2.0.0"
   },
   "licenses": [

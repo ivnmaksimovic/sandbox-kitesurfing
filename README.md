@@ -6,11 +6,14 @@ created using assemble static site generator
 
 ## Requirements
 
-  Node 6 and NPM
+  Node 16 and NPM
+
+  Sharp for image resizing might need exact same node version as when it was installed https://sharp.pixelplumbing.com/install
 
 ## Installation
 
-  `npm install` or `yarn`
+  `nvm use`
+  `yarn`
 
 ## Developing
 
@@ -19,3 +22,9 @@ created using assemble static site generator
 ## Deployment
 
 https://github.com/ivnmaksimovic/ci-cd
+
+## Galleries
+
+Add new images to `originals` folders in `src/assets/img/galleries`.
+
+`npm run resize` to create all sizes.

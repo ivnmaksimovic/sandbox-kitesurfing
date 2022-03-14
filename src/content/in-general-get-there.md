@@ -19,4 +19,4 @@ Airport of Čilipi (Dubrovnik, Croatia) is 25 kilometers away from Herceg Novi 
 + Info phone: +385 20 773 377
 + Web site: [www.airport-dubrovnik.hr](www.airport-dubrovnik.hr "Cilipi, Dubrovnik airport site")
 
-From the airport we can arrange transport for you, or we can help you to get the right rent-a-ca
+From the airport we can arrange transport for you, or we can help you to get the right rent-a-car

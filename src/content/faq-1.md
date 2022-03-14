@@ -8,7 +8,7 @@ Season starts in May and ends in Octobar
 
 #### What will the wind be like when i am there?
 
-I have no idea! wind is like a woman, completely unpredictable!!. Funny how often I get asked that question. We have a 90% windy days, and is usually between 15 – 25 knots. Past years best wind was in june.
+I have no idea! Funny how often I get asked that question. We have a 90% windy days, and is usually between 15 – 25 knots. Past years best wind was in june.
 If you go to the windguru or windfinder they can give you a 7 day forecast. 
 http://www.windguru.cz/int/index.php?sc=39475&sty=m_spot
 

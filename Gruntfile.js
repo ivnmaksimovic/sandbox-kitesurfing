@@ -1,4 +1,4 @@
-const sass = require('node-sass')
+const sass = require("node-sass");
 /*
  * Generated on 2014-04-03
  * generator-assemble v0.4.11
@@ -8,7 +8,7 @@ const sass = require('node-sass')
  * Licensed under the MIT license.
  */
 
-'use strict';
+("use strict");
 
 // # Globbing
 // for performance reasons we're only matching one level down:
@@ -16,48 +16,48 @@ const sass = require('node-sass')
 // use this if you want to match all subfolders:
 // '<%= config.src %>/templates/pages/**/*.hbs'
 
-module.exports = function(grunt) {
-
-  require('time-grunt')(grunt);
+module.exports = function (grunt) {
+  require("time-grunt")(grunt);
 
   // Project configuration.
   grunt.initConfig({
-
     config: {
-      src: 'src',
-      dist: 'dist'
+      src: "src",
+      dist: "dist",
     },
 
     watch: {
       assemble: {
-        files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
-        tasks: ['assemble']
+        files: [
+          "<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}",
+        ],
+        tasks: ["assemble"],
       },
       sass: {
-        files: ['src/assets/sass/{,*/}*.{scss,sass}'],
+        files: ["src/assets/sass/{,*/}*.{scss,sass}"],
         options: {
-          spawn: false
+          spawn: false,
         },
-        tasks: ['sass']
+        tasks: ["sass"],
       },
       concat: {
-        files: ['src/assets/js/**/*.js'],
+        files: ["src/assets/js/**/*.js"],
         options: {
-          spawn: false
+          spawn: false,
         },
-        tasks: ['concat']
+        tasks: ["concat"],
       },
       livereload: {
         options: {
-          livereload: '<%= connect.options.livereload %>'
+          livereload: "<%= connect.options.livereload %>",
         },
         files: [
-          '<%= config.dist %>/{,*/}*.html',
-          '<%= config.dist %>/assets/{,*/}*.css',
-          '<%= config.dist %>/assets/{,*/}*.js',
-          '<%= config.dist %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-        ]
-      }
+          "<%= config.dist %>/{,*/}*.html",
+          "<%= config.dist %>/assets/{,*/}*.css",
+          "<%= config.dist %>/assets/{,*/}*.js",
+          "<%= config.dist %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}",
+        ],
+      },
     },
 
     connect: {
@@ -65,16 +65,14 @@ module.exports = function(grunt) {
         port: 9000,
         livereload: 35729,
         // change this to '0.0.0.0' to access the server from outside
-        hostname: 'localhost'
+        hostname: "localhost",
       },
       livereload: {
         options: {
           open: true,
-          base: [
-            '<%= config.dist %>'
-          ]
-        }
-      }
+          base: ["<%= config.dist %>"],
+        },
+      },
     },
 
     assemble: {
@@ -82,68 +80,69 @@ module.exports = function(grunt) {
         options: {
           flatten: true,
           production: false,
-          assets: '<%= config.dist %>/assets',
-          layout: '<%= config.src %>/templates/layouts/default.hbs',
-          data: '<%= config.src %>/data/*.{json,yml}',
-          partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-sitemap']
+          assets: "<%= config.dist %>/assets",
+          layout: "<%= config.src %>/templates/layouts/default.hbs",
+          data: "<%= config.src %>/data/*.{json,yml}",
+          partials: "<%= config.src %>/templates/partials/*.hbs",
+          plugins: ["assemble-contrib-sitemap"],
         },
         files: {
-          '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
-        }
-      }
+          "<%= config.dist %>/": ["<%= config.src %>/templates/pages/*.hbs"],
+        },
+      },
     },
 
     sass: {
       options: {
-        includePaths: ['node_modules'],
-        implementation: sass
+        includePaths: ["node_modules"],
+        implementation: sass,
       },
       dev: {
         options: {
-          outputStyle: 'nested',
-          sourceComments: 'normal'
+          outputStyle: "nested",
+          sourceComments: "normal",
         },
         files: {
-          'dist/assets/css/sandbox.css': 'src/assets/sass/app/sandbox.scss'
-        }
+          "dist/assets/css/sandbox.css": "src/assets/sass/app/sandbox.scss",
+        },
       },
       prod: {
-          options: {
-            outputStyle: 'compressed'
-          },
-          files: {
-            'dist/assets/css/sandbox.min.css': 'src/assets/sass/app/sandbox.scss'
-          }
-      }
+        options: {
+          outputStyle: "compressed",
+        },
+        files: {
+          "dist/assets/css/sandbox.min.css": "src/assets/sass/app/sandbox.scss",
+        },
+      },
     },
 
     concat: {
       options: {
-        separator: ';'
+        separator: ";",
       },
       jsmod: {
-        src: ['src/assets/js/vendor/modernizer.js'],
-        dest: 'dist/assets/js/modernizer.js'
+        src: ["src/assets/js/vendor/modernizer.js"],
+        dest: "dist/assets/js/modernizer.js",
       },
       jsvend: {
-        src: ['src/assets/js/vendor/jquery.js'],
-        dest: 'dist/assets/js/jquery.js'
+        src: ["src/assets/js/vendor/jquery.js"],
+        dest: "dist/assets/js/jquery.js",
       },
       jspicture: {
-        src: ['src/assets/js/vendor/picturefill.min.js'],
-        dest: 'dist/assets/js/picturefill.min.js'
+        src: ["src/assets/js/vendor/picturefill.min.js"],
+        dest: "dist/assets/js/picturefill.min.js",
       },
       jsfancybox: {
-        src: ['src/assets/js/vendor/jquery.fancybox.pack.js'],
-        dest: 'dist/assets/js/jquery.fancybox.pack.js'
+        src: ["src/assets/js/vendor/jquery.fancybox.pack.js"],
+        dest: "dist/assets/js/jquery.fancybox.pack.js",
       },
       jsapp: {
         src: [
-          'node_modules/foundation-sites/js/foundation.min.js',
-          'src/assets/js/app/{,*/}*.js'],
-        dest: 'dist/assets/js/main.js'
-      }
+          "node_modules/foundation-sites/js/foundation.min.js",
+          "src/assets/js/app/{,*/}*.js",
+        ],
+        dest: "dist/assets/js/main.js",
+      },
     },
 
     jshint: {
@@ -153,79 +152,92 @@ module.exports = function(grunt) {
         eqnull: true,
         browser: true,
         globals: {
-          jQuery: true
-        }
+          jQuery: true,
+        },
       },
-      beforeconcat: ['src/assets/js/app/app.js']
+      beforeconcat: ["src/assets/js/app/app.js"],
     },
 
     copy: {
       img: {
         files: [
-          { expand: true, cwd: 'src/assets/img/', src: '**/*', dest: 'dist/assets/img/' }
-        ]
+          {
+            expand: true,
+            cwd: "src/assets/img/",
+            src: ["**/*", "!**/originals/**/*"],
+            dest: "dist/assets/img/",
+          },
+        ],
       },
       css: {
         files: [
-          { expand: true, cwd: 'src/assets/css/', src: '**/*', dest: 'dist/assets/css/' }
-        ]
+          {
+            expand: true,
+            cwd: "src/assets/css/",
+            src: "**/*",
+            dest: "dist/assets/css/",
+          },
+        ],
       },
       weather: {
         files: [
-          { expand: true, cwd: 'weather/', src: '**/*', dest: 'dist/weather/' }
-        ]
+          { expand: true, cwd: "weather/", src: "**/*", dest: "dist/weather/" },
+        ],
       },
       config: {
         files: [
-          { expand: true, cwd: 'src/', src: 'browserconfig.xml', dest: 'dist/' },
-          { expand: true, cwd: 'src/', src: 'manifest.json', dest: 'dist/' }
-        ]
-      }
+          {
+            expand: true,
+            cwd: "src/",
+            src: "browserconfig.xml",
+            dest: "dist/",
+          },
+          { expand: true, cwd: "src/", src: "manifest.json", dest: "dist/" },
+        ],
+      },
     },
 
     // Before generating any new files,
     // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*'],
-
+    clean: ["<%= config.dist %>/**/*"],
   });
 
-  grunt.loadNpmTasks('grunt-assemble');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-requirejs');
-  grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-newer');
+  grunt.loadNpmTasks("grunt-assemble");
+  grunt.loadNpmTasks("grunt-contrib-clean");
+  grunt.loadNpmTasks("grunt-contrib-connect");
+  grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks("grunt-contrib-concat");
+  grunt.loadNpmTasks("grunt-contrib-copy");
+  grunt.loadNpmTasks("grunt-contrib-cssmin");
+  grunt.loadNpmTasks("grunt-contrib-imagemin");
+  grunt.loadNpmTasks("grunt-contrib-jshint");
+  grunt.loadNpmTasks("grunt-contrib-uglify");
+  grunt.loadNpmTasks("grunt-contrib-requirejs");
+  grunt.loadNpmTasks("grunt-sass");
+  grunt.loadNpmTasks("grunt-newer");
 
-  grunt.registerTask('default', [
-    'newer:clean',
-    'sass:prod',
-    'concat',
-    'newer:jshint',
-    'assemble',
-    'newer:copy:config',
-    'newer:copy:css',
-    'newer:copy:img',
-    'newer:copy:weather', // sample rss files just for development
-    'connect:livereload',
-    'watch'
+  grunt.registerTask("default", [
+    "newer:clean",
+    "sass:prod",
+    "concat",
+    "newer:jshint",
+    "assemble",
+    "newer:copy:config",
+    "newer:copy:css",
+    "newer:copy:img",
+    "newer:copy:weather", // sample rss files just for development
+    "connect:livereload",
+    "watch",
   ]);
 
-  grunt.registerTask('build', [
-    'clean',
-    'sass:prod',
-    'concat',
-    'jshint',
-    'copy:config',
-    'copy:css',
-    'copy:img',
-    'assemble'
+  grunt.registerTask("build", [
+    "clean",
+    "sass:prod",
+    "concat",
+    "jshint",
+    "copy:config",
+    "copy:css",
+    "copy:img",
+    "assemble",
   ]);
-
 };

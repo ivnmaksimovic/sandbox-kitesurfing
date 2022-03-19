@@ -118,7 +118,7 @@ module.exports = function (grunt) {
 
     concat: {
       options: {
-        separator: ";",
+        separator: ";\n",
       },
       jsmod: {
         src: ["src/assets/js/vendor/modernizer.js"],

@@ -6,11 +6,10 @@ Total Beginners as well as intermediate and advanced kitesurfers will be totally
 
 **Included service:**
 
-- Accommodation & Catering as booked
+- Accommodation
 - Kite Course as booked
 - Gear Rental (kite, board, bar, harness, wet suit) for the rest of the week
 - Usage of Sandbox Center facilities: sun beds, showers, WC, beach volley etc.
-- Daily transfer to the spot and back to the accommodation
 - Rescue, launch and landing service
 - Many small surprises from our smiling staff ;)
 The airport transfer is not included in the price (Podgorica 60 € / Tivat 60 € one way per car). Alternatively, we can offer you a rental car.

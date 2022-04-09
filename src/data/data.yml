@@ -35,6 +35,7 @@ content:
   vladimir-perovic:            '<%= config.src %>/content/team/vladimir-perovic.md'
   ana-gogic:                   '<%= config.src %>/content/team/ana-gogic.md'
   jovana-radulovic:            '<%= config.src %>/content/team/jovana-radulovic.md'
+  violeta-bojic:            '<%= config.src %>/content/team/violeta-bojic.md'
   video:                       '<%= config.src %>/content/video.md'
   faq-1:                       '<%= config.src %>/content/faq-1.md'
   faq-2:                       '<%= config.src %>/content/faq-2.md'

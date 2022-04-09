@@ -26,7 +26,7 @@ Yes it is, there are several camps near the beach, 5-10 minutes drive
 Send a request via mail info@kitesurfingmontenegro.com
 We will check if it is possible to book requested service and confirm to you. If the price and reservation terms suit you, we will send you with e-mail the money order for paying the deposit or entire arrangement.
 After your confirmation to book the package, the arrangement must be paid (paid 30% from total costs) within 72 hours (three days).
-After the deposit amount you should contact us as soon as possible with e-mail info@kitesurfingmontenegro.com or tel +382 68 005 044.
+After the deposit amount you should contact us as soon as possible with e-mail info@kitesurfingmontenegro.com or tel +381 63 1382 507
 As soon as money arrives on our account, you will receive the official voucher as the confirmation of reservation.
 The other 70% of total costs you have to pay upon your arrival at the spot.
 

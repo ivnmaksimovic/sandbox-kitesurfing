@@ -7,7 +7,7 @@ You can also make a package to suit you, just contact us and we'll make a deal.
 
 |Sandbox house (Apartments)   |15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
 |-----------------|----------------------------|-------------|
-|Beginner package     |450                     |550          |
+|Beginner package     |500                     |600          |
 |Intermediate package |400                     |500          |
 |Basic package        |180                     |210          |
 |Rental package       |300                     |400          |

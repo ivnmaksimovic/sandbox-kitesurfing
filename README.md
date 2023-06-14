@@ -21,6 +21,9 @@ created using assemble static site generator
 
 ## Deployment
 
+`npm run build-prod` to build for production 
+
+Deploy using
 https://github.com/ivnmaksimovic/ci-cd
 
 ## Galleries

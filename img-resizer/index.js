@@ -44,7 +44,6 @@ const imagesRootFolder = path.join(__dirname, "../src/assets/img/galleries");
 const folders = [
   "in-general",
   "package/confor",
-  "package/palata-venezia",
   "package/sandbox",
   "school",
   "snow",

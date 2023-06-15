@@ -5,9 +5,9 @@ You can also make a package to suit you, just contact us and we'll make a deal.
 
 **Prices for single person are 20% higher.**
 
-|Sandbox house (Apartments)   |15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
-|-----------------|----------------------------|-------------|
-|Beginner package     |500                     |600          |
-|Intermediate package |400                     |500          |
-|Basic package        |180                     |210          |
-|Rental package       |300                     |400          |
+|Sandbox house (Apartments)   |     |
+|---------------------|-------------|
+|Beginner package     |750          |
+|Intermediate package |650          |
+|Basic package        |350          |
+|Rental package       |550          |

@@ -1,10 +1,10 @@
 
 
-|School price                 |15.05.-30.06 & 01.09.-01.10.|01.07.-31.08.|
-|-----------------------------|----------------------------|-------------|
-|Beginner course (10 hours)   |350                         |350          |
-|Intermediate course (5 hours)|150                         |175          |
-|Individual lesson (1 hour)   |50                          |50           |
+|School price                 |                            |
+|-----------------------------|----------------------------|
+|Beginner course (10 hours)   |370                         |
+|Intermediate course (5 hours)|185                         |
+|Individual lesson (1 hour)   |60                          |
 
 _Prices including all necessary equipment. Course prices are for group lessons (2-3 people)_
 

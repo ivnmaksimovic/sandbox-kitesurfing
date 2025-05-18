@@ -21,10 +21,10 @@ created using assemble static site generator
 
 ## Deployment
 
-`npm run build-prod` to build for production 
+`./scripts/build.sh` to build for production using correct node version
 
 Deploy using
-https://github.com/ivnmaksimovic/ci-cd
+https://github.com/ivnmaksimovic/do
 
 ## Galleries
 

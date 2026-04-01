@@ -26,7 +26,7 @@
     "assemble": "~0.24.3",
     "assemble-contrib-sitemap": "*",
     "cpx": "^1.5.0",
-    "grunt": "~1.4.1",
+    "grunt": "~1.5.3",
     "grunt-assemble": "^0.6.3",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-clean": "~2.0.0",
